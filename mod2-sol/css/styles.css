@@ -2,3 +2,26 @@
 {
 	text-align: center; 
 }
+
+section
+{
+	background-color: #FFD6C0; 
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.col-lg-4
+{
+	width: 33.33%; 
+	float: left;
+}
+
+.col-md-6
+{
+	width: 50%; 
+}
+
+p
+{
+	margin: 0px;
+}
