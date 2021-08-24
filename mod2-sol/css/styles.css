@@ -1,3 +1,8 @@
+*
+{
+	box-sizing: border-box; 
+}
+
 #title
 {
 	text-align: center; 
@@ -6,16 +11,29 @@
 section
 {
 	background-color: #FFD6C0; 
-	box-sizing: border-box;
 	border: 1px solid black;
 	float: left;
+	padding: 8px;
+	position: relative;
+}
+
+.section-title
+{
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+#section-title1
+{
+	background-color: red; 
 }
 
 p
 {
 	margin: 0px;
+	clear: right;
 }
-
 
 /* Handle large browers. */
 @media (min-width: 992px)
@@ -26,10 +44,24 @@ p
 	}
 }
 
+/* Handle medium browsers. */
 @media (min-width: 768px) and (max-width: 991px)
 {
 	.col-md-6
 	{
 		width: 50%;
+	}
+	.col-third
+	{
+		width: 100%;
+	}
+}
+
+/* Handle small browsers. */
+@media (max-width: 767px)
+{
+	.col-sm-12
+	{
+		width: 100%;
 	}
 }
