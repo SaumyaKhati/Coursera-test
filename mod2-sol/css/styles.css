@@ -11,7 +11,7 @@ p {
 
 
 .section {
-	background-color: #a9de9c;
+	background-color: #c9f807;
 	border: 1px solid black;
 	padding: 0px;
 	width: 98%;
@@ -39,6 +39,9 @@ p {
 	text-align: center;
 	width: 25%;
 	overflow: hidden;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 #t1 {
